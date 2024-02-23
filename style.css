@@ -151,7 +151,6 @@ span{
 }
 .about-items .btn{
     text-align: center;
-    margin-left: 30px;
 }
 .about-resume h3{
     font-size: 2.4rem;
@@ -336,7 +335,7 @@ hr{
         grid-template-columns: repeat(2,1fr);
     }
     .about-resume .btn{
-        margin-left: 40px;
+        margin-left: 30px;
     }
     .about-text p{
         text-align: center;
