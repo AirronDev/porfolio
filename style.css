@@ -10,18 +10,18 @@
     scroll-behavior: smooth;
 }
 a{
-    color: #fff;
+    color: #EEEEEE;
 }
 html{
     font-size: 62.5%;
     overflow-x: hidden;
 }
 body{
-    background: #573f00;
-    color: #fff;
+    background: #222831;
+    color: #EEEEEE;
 }
 .header{
-    background: #00000094;
+    background: #31363F;
     box-shadow: 0px 25px 20px -20px rgba(0,0,0,0.45);
     position: fixed;
     top: 0;
@@ -36,7 +36,7 @@ body{
 .logo{
     font-size: 2.2rem;
     font-weight: 600;
-    color: white
+    color: #EEEEEE
 }
 .menu-bar a{
     font-size: 1.5rem;
@@ -44,7 +44,7 @@ body{
     transition: 0.4s ease;
 }
 .menu-bar a:hover{
-    color: #573f00;
+    color: #76ABAE;
     padding: 15px;
     margin: 0;
 }
@@ -54,7 +54,7 @@ body{
     transition: 0.4s ease ;
 }
 #menu-btn:hover{
-    color: #573f00;
+    color: #76ABAE;
 }
 section{
     padding: 10rem 10%;
@@ -66,7 +66,7 @@ section{
     justify-content: center;
 }
 span{
-    color: #927836;
+    color: #76ABAE;
 }
 .home-bio h1{
     font-size: 3.5rem;
@@ -84,7 +84,6 @@ span{
 }
 .profile-pic img{
     width: 60vh;
-    /* border-radius: 50%; */
     filter: drop-shadow( 0 0 10px rgba(0,0,0,0.5));
     animation: float 5s ease-in-out infinite;
 }
@@ -111,26 +110,25 @@ span{
     transition: 0.5s ease;
 }
 .social-media i:hover{
-    color: #573f00;
-    background: white;
+    color: #222831;
+    background: #76ABAE;
     border: thin solid white;
 }
 .btn{
     display: inline-block;
+    border-radius: 5px;
     background: rgb(255, 255, 255);
     box-shadow: 0px 6px 6px -3px rgba(0,0,0,0.45);
     margin: 2rem 0rem;
     padding: 1rem 2.5rem;
-    border-radius: 1.3rem;
     font-size: 1.3rem;
-    color: #573f00;
+    color: #31363F;
     font-weight: 600;
     transition: 0.5s ease;
-    border: thin solid white;
 }
 .btn:hover{
-    color: rgb(255, 255, 255);
-    background: #573f00;
+    color: #222831;
+    background: #76ABAE;
 }
 .about{
     display: flex;
@@ -190,13 +188,13 @@ span{
     transition: 0.4s ease;
 }
 .skill-card .bx:hover{
-    color: #927836;
+    color: #76ABAE;
 }
 
 .skill-card h3{
     font-size: 2.5rem;
     font-weight: 600;
-    color: #927836;
+    color: #EEEEEE;
 }
 .skill-card p{
     text-align: center;
@@ -246,16 +244,14 @@ span{
     transition: 0.4s all linear;
 }
 .card-overlay .bx{
-    color: #fff;
+    color: #EEEEEE;
     font-size: 1.8rem;
     padding: 1.1rem;
-    background: #573f00;
-    border-radius: 0.8rem;
     transition: 1s all cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 .card-overlay .bx:hover{
     transform: scale(1.2);
-    color: #927836;
+    color: #76ABAE;
 }
 .contact{
     display: flex;
@@ -271,7 +267,7 @@ form input, textarea{
     width: 100%;
     padding: 1rem;
     font-size: 1.5rem;
-    color: #fff;
+    color: #EEEEEE;
     background: rgba(0, 0, 0, 0.411);
     border-radius: 1rem;
     resize: none;
@@ -283,7 +279,7 @@ form input, textarea{
 }
 hr{
     margin: 1rem;
-    border-bottom: thin solid #fff;
+    border-bottom: thin solid #EEEEEE;
 }
 
 @media (max-width: 1200px){
@@ -306,10 +302,9 @@ hr{
     .menu-bar{
         width: 100%;
         position: absolute;
-        border-radius: 0 0 0 10px;
         left: 0;
         top: 99.5%;
-        background: #00000094;
+        background: #31363F;
         display: none;
         box-shadow: 0px 25px 20px -20px rgba(0,0,0,0.45);
 
