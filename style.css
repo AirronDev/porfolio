@@ -112,7 +112,6 @@ span{
 .social-media i:hover{
     color: #222831;
     background: #76ABAE;
-    border: thin solid white;
 }
 .btn{
     display: inline-block;
