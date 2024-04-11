@@ -221,7 +221,7 @@ span{
 .projects-card img{
     height: 100%;
     width: 100%;
-    object-fit: cover;
+    object-fit: contain;
     object-position: center;
 }
 .card-overlay{
